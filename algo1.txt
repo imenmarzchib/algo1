@@ -1,0 +1,40 @@
+algorithme compte()
+var
+i,compteChar,nbMots ,j, voy,h=integer
+ph:string
+begin
+  i=0;
+lire(ph)
+    while(ph[i]!='\0')
+        i++;
+compteChar=i
+    return compteChar;
+
+
+    nbMots =0
+  j = 0
+lire(ph)
+    while j < len(ph):
+        if ph[j] == " " and ph[j] != "":
+            nbMots = nbMots + 1
+        elseif ph == "":
+            nbMots = 0
+       nbMots = j + 1
+    return nbMots
+
+    voy := 0;
+   
+  for( h= 1 ,h< length(ph) ,h++)
+switch(*ph)
+{
+case 'a': case 'e': case: 'i': case 'o': case 'u': case 'y': h++;
+break;
+       
+       
+                voy := voy + 1;
+          
+      return voy     
+
+ 
+end 
+
